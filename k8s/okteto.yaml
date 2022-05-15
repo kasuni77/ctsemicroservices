@@ -4,4 +4,4 @@ build:
      context: .
      dockerfile: Dockerfile
 deploy:
-  - kubectl apply -f k8s/okteto.yaml
+  - kubectl apply -f k8s/deploy.yaml
