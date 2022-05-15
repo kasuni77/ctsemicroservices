@@ -1,0 +1,7 @@
+build:
+  inventory_service:
+     image: kasuni77/ctsemicroservices:2dcb7970713880263da61b98e83f49539dde6c26
+     context: .
+     dockerfile: Dockerfile
+deploy:
+  - kubectl apply -f k8s
